@@ -1,4 +1,8 @@
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #405742;
   color: white;
   font-family: Helvetica, Arial, sans-serif;
@@ -12,6 +16,7 @@ body {
   align-items: center;
   width: 600px;
   margin: 40px;
+  transition: background-color 1s, transform 1s;
 }
 
 .card:hover {
@@ -24,6 +29,7 @@ body {
   height: 180px;
   border-radius: 50%;
   overflow: hidden;
+  border-color: #202c22;
 }
 
 .img-container-circle img {
