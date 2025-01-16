@@ -1,6 +1,17 @@
 body {
-  background-color: darkblue;
-  color: aliceblue;
+  background-color: #405742;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.card {
+  background-color: #202c22;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  width: 600px;
+  margin: 40px;
 }
 
 .img-container-circle {
